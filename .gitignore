@@ -1,7 +1,7 @@
 /node_modules/
 /dist/
+/.vscode/
 
 .pnpm-debug.log
 .DS_Store
 .gitattributes
-/.vscode/
