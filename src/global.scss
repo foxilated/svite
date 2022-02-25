@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Light.ttf') format('truetype');
+}
+:root {
+  font-family: Poppins, sans-serif;
+  --white: #f4f4f6;
+  --black: #111115;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  /* This makes 1rem = 10px */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--white);
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+}
