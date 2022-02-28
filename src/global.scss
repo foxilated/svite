@@ -1,24 +1,20 @@
-@font-face {
-  font-family: 'Poppins';
-  src: url('/fonts/Poppins-Light.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 :root {
   font-family: Poppins, sans-serif;
-  --white: #f4f4f6;
-  --black: #111115;
+  --white: #ffffff;
+  --blue: #0349ff;
+  --black: #130f13;
 }
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 html {
-  /* This makes 1rem = 10px */
+  /* This Makes 1rem = 10px */
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 body {
-  background-color: var(--white);
-  height: 100%;
-  -webkit-font-smoothing: antialiased;
+  background: var(--blue);
+  overflow: hidden;
 }
