@@ -1,8 +1,7 @@
-import Home from 'pages/Home.svelte';
-import NotFound from 'pages/NotFound.svelte';
-import Maintenance from 'pages/Maintenance.svelte';
+import Home from 'pages/Home';
+import NotFound from 'pages/404';
 
 export default {
-  '/': Maintenance,
+  '/': Home,
   '*': NotFound,
 };
